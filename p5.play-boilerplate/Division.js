@@ -11,7 +11,7 @@ constructor(x,y,w,h){
 display(){
     var pos=this.body.position;
     rectMode(CENTER);
-    Fill("orange");
+    fill("orange");
    rect(pos.x,pos.y,this.w,this.h); 
 }
 };
